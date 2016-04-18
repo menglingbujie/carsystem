@@ -1,0 +1,31 @@
+{
+  "carlist":[
+    {
+      "num":1,
+      "logo":"/images/logo_car_1.jpg",
+      "carname":"北汽E150",
+      "carnum":"京A1111",
+      "carid":"京A1111",
+      "careng":"京A1111",
+      "status":"未使用"
+    },
+    {
+      "num":2,
+      "logo":"/images/logo_car_1.jpg",
+      "carname":"北汽E150",
+      "carnum":"京A2222",
+      "carid":"京A2222",
+      "careng":"京A2222",
+      "status":"维修中"
+    },
+    {
+      "num":3,
+      "logo":"/images/logo_car_1.jpg",
+      "carname":"江淮IEV5",
+      "carnum":"京A3333",
+      "carid":"京A3333",
+      "careng":"京A3333",
+      "status":"未使用"
+    }
+  ]
+}

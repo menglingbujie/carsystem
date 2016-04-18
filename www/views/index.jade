@@ -1,0 +1,74 @@
+extends layout
+
+block content
+  header
+    nav.navbar.navbar-default
+      h3 车辆管理系统
+
+  #container.container
+    articel
+      .panel.panel-success
+        .panel-heading
+          .row
+            .col-md-2.col-lg-2.col-sm-2
+              button.btn.btn-primary(type="button")
+                i.glyphicon.glyphicon-plus
+                span 添加车辆
+
+            .col-sm-5.col-md-5.col-lg-5.bar_status
+              label.checkbox-inline
+                input(type="checkbox")
+                span 未使用
+                i.symbol.unuse
+
+              label.checkbox-inline
+                input(type="checkbox")
+                span 使用中
+                i.symbol.use
+
+              label.checkbox-inline
+                input(type="checkbox")
+                span 维修中
+                i.symbol.fixed
+
+              label.checkbox-inline
+                input(type="checkbox")
+                span 其他
+                i.symbol.other
+            .col-md-3.col-lg-3.col-sm-3
+              input.search(type="sarch" placeholder="车辆查找")
+
+        .panel-body
+          table.table.table-hover
+            thead
+              tr
+                th 序号
+                th Logo
+                th 车型号
+                th 车牌号
+                th 车架号
+                th 发动机号
+                th 状态
+            tbody#carListId
+              tr
+                td(colspan="7")
+                  h3.text-center 暂无车辆
+          nav.text-center
+            ul.pagination
+              li
+                a(href="#" aria-label="Prev")
+                  span(aria-hidden="true") &laquo;
+              li
+                a(href="#") 1
+              li
+                a(href="#") 1
+              li
+                a(href="#" aria-label="Next")
+                  span(aria-hidden="true") &raquo;
+  footer.navbar.navbar-default.navbar-fixed-bottom
+    h5.text-center @2016 carsystem by menglingbujie@126.com
+
+  script(src="/js/libs/jquery-2.0.3.min.js" type="text/javascript")
+  script(src="/js/libs/react.min.js" type="text/javascript")
+  script(src="/js/libs/react-dom.min.js" type="text/javascript")
+  script(src="/js/carlist.js" type="text/javascript")

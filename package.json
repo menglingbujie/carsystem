@@ -1,0 +1,17 @@
+{
+  "name": "carsystem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "gogogo": "node www/bin/www www/app.js"
+  },
+  "author": "menglj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "express": "^4.13.4"
+  },
+  "description": ""
+}
